@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "path": "/", "title": "Мурчальня — мини-игры с котом" },
+    { "path": "/game/feed", "title": "Накорми кота" },
+    { "path": "/game/wash", "title": "Помой кота" },
+    { "path": "/game/tower", "title": "Башня из котов" },
+    { "path": "/game/jump", "title": "Джампинг" },
+    { "path": "/game/run", "title": "Кот-бегун" }
+  ]
+}
