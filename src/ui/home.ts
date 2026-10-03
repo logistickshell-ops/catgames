@@ -16,7 +16,7 @@ function makeLogo(): HTMLElement {
     mark,
     el('span', { class: 'logo__text' }, [
       el('b', { text: 'Мурчальня' }),
-      el('i', { text: 'десять кошачьих аркад' }),
+      el('i', { text: 'пятнадцать кошачьих аркад' }),
     ]),
   ]);
 }
@@ -76,9 +76,9 @@ export function renderHome(container: HTMLElement, navigate: (path: string) => v
 
   const hero = el('section', { class: 'hero' }, [
     el('div', { class: 'hero__text' }, [
-      el('span', { class: 'sticker', text: '10 игр · вход свободный' }),
+      el('span', { class: 'sticker', text: '15 игр · вход свободный' }),
       el('h1', { class: 'hero__title', text: 'Мурчальня' }),
-      el('p', { class: 'hero__lead', text: 'Десять лёгких кошачьих аркад в одном кармане. Накормите кота, ловите клубки, выращивайте цветы, ищите хвосты и ставьте новые рекорды.' }),
+      el('p', { class: 'hero__lead', text: 'Пятнадцать лёгких кошачьих аркад в одном кармане. Накормите кота, ловите мячики и клубки, раскрашивайте, собирайте тройки и ставьте новые рекорды.' }),
       el('div', { class: 'hero__actions' }, [
         el('a', { class: 'btn btn--primary btn--lg', href: GAMES[0]?.path ?? '/', 'data-nav': '', text: 'Начать с еды' }),
         randomButton,
@@ -86,7 +86,7 @@ export function renderHome(container: HTMLElement, navigate: (path: string) => v
       el('ul', { class: 'hero__facts' }, [
         el('li', { text: 'Тач, мышь и клавиатура' }),
         el('li', { text: 'Рекорды хранятся на устройстве' }),
-        el('li', { text: '10 разных механик' }),
+        el('li', { text: '15 разных механик' }),
       ]),
     ]),
     el('figure', { class: 'hero__art' }, [heroArt]),
@@ -96,7 +96,7 @@ export function renderHome(container: HTMLElement, navigate: (path: string) => v
   const shelf = el('section', { class: 'shelf', id: 'games' }, [
     el('div', { class: 'section-head' }, [
       el('h2', { class: 'section-head__title', text: 'Полка игр' }),
-      el('p', { class: 'section-head__lead', text: 'Пять больших аркад и пять новых быстрых игр — выбирайте любую карточку.' }),
+      el('p', { class: 'section-head__lead', text: 'Пять больших аркад и десять новых быстрых игр — выбирайте любую карточку.' }),
     ]),
     cards,
   ]);

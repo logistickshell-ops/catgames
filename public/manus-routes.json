@@ -1,6 +1,6 @@
 {
   "routes": [
-    { "path": "/", "title": "Мурчальня — десять мини-игр с котом" },
+    { "path": "/", "title": "Мурчальня — пятнадцать мини-игр с котом" },
     { "path": "/game/feed", "title": "Накорми кота" },
     { "path": "/game/wash", "title": "Помой кота" },
     { "path": "/game/tower", "title": "Башня из котов" },
@@ -10,6 +10,11 @@
     { "path": "/game/yarn", "title": "Кот и клубки" },
     { "path": "/game/laser", "title": "Лазерный кот" },
     { "path": "/game/garden", "title": "Кот-садовник" },
-    { "path": "/game/hide", "title": "Где кот?" }
+    { "path": "/game/hide", "title": "Где кот?" },
+    { "path": "/game/ball", "title": "Кот за мячиком" },
+    { "path": "/game/color", "title": "Раскрась кота" },
+    { "path": "/game/ray", "title": "Кот-лазер" },
+    { "path": "/game/match", "title": "Три кота в ряд" },
+    { "path": "/game/zuma", "title": "Зума с котами" }
   ]
 }

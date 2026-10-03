@@ -2,7 +2,7 @@
   "name": "murchalnya",
   "private": true,
   "version": "1.0.0",
-  "description": "Мурчальня — веб-сервис с пятью мини-играми про кота (HTML5 Canvas) и интеграцией Telegram Mini App",
+  "description": "Мурчальня — веб-сервис с пятнадцатью мини-играми про кота (HTML5 Canvas) и интеграцией Telegram Mini App",
   "type": "module",
   "packageManager": "pnpm@11.25.0",
   "scripts": {
