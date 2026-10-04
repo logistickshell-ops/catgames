@@ -9,19 +9,19 @@ export interface CatStyle {
 }
 
 export const GINGER: CatStyle = {
-  fur: '#F4F1EA',
-  furDark: '#2A1F17',
+  fur: '#FFB877',
+  furDark: '#EE9A46',
   ink: '#2A1F17',
-  pink: '#2A1F17',
-  cream: '#FFFFFF',
+  pink: '#FF8FA8',
+  cream: '#FFF4E4',
 };
 
 export const SNOW: CatStyle = {
   fur: '#FFFFFF',
-  furDark: '#2A1F17',
+  furDark: '#E8DFD2',
   ink: '#2A1F17',
-  pink: '#2A1F17',
-  cream: '#FFFFFF',
+  pink: '#FF8FA8',
+  cream: '#FFF4E4',
 };
 
 export type Mood = 'idle' | 'blink' | 'happy' | 'eat' | 'sad' | 'focus';

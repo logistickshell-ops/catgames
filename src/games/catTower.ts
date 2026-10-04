@@ -341,7 +341,7 @@ class CatTowerGame implements GameInstance {
 export const catTowerGame: GameDefinition = {
   id: 'tower',
   path: '/game/tower',
-  title: 'Башня из котов',
+    title: 'Башня котов',
   tagline: 'Роняйте котов точно друг на друга — выше и выше',
   description: 'Кот качается сверху и ждёт команды. Тапните вовремя, чтобы он упал ровно на башню.',
   emoji: '🗼',

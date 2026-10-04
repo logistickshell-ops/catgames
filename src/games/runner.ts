@@ -397,7 +397,7 @@ class RunnerGame implements GameInstance {
 export const runnerGame: GameDefinition = {
   id: 'run',
   path: '/game/run',
-  title: 'Кот-бегун',
+  title: 'Бег кота',
   tagline: 'Бегите вправо по платформам и собирайте корм',
   description: 'Кот бежит сам — вам остаётся прыгать через ямы и горшки и собирать рыбок с молочком.',
   emoji: '🏃',

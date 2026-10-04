@@ -319,7 +319,7 @@ class FeedCatGame implements GameInstance {
 export const feedCatGame: GameDefinition = {
   id: 'feed',
   path: '/game/feed',
-  title: 'Накорми кота',
+  title: 'Покорми кота',
   tagline: 'Ловите падающую еду и не подставляйте морду под тапок',
   description: 'Кот ужасно голоден. Веди его по кухне и ловите всё съедобное, пока не заполнится шкала сытости.',
   emoji: '🐟',
